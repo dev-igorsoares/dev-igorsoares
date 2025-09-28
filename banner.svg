@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Banner de boas-vindas">
+  <defs>
+    <!-- gradiente animado vermelho -->
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000">
+        <animate attributeName="stop-color" values="#ff0000;#8B0000;#ff0000" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8B0000">
+        <animate attributeName="stop-color" values="#8B0000;#ff4500;#8B0000" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff4500">
+        <animate attributeName="stop-color" values="#ff4500;#ff0000;#ff4500" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- fundo com pontos -->
+    <pattern id="dots" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="6" fill="#ff000022"/>
+      <circle cx="60" cy="60" r="8" fill="#ff000015"/>
+      <circle cx="100" cy="20" r="4" fill="#ff00000f"/>
+    </pattern>
+
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fundo preto -->
+  <g id="bg">
+    <rect width="1000" height="200" fill="#0a0a0a"/>
+    <rect width="1000" height="200" fill="url(#dots)"/>
+    <g>
+      <ellipse cx="900" cy="-120" rx="700" ry="420" fill="#1a1a1a" opacity="0.5">
+        <animateTransform attributeName="transform" type="translate" values="0,0; -25,10; 0,0" dur="10s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="-200" cy="260" rx="600" ry="420" fill="#111111" opacity="0.5">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 20,-8; 0,0" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+  </g>
+
+  <!-- Texto principal -->
+  <g transform="translate(40,60)">
+    <text x="0" y="60" font-family="Inter, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="url(#g1)">
+      Seja bem-vindo ao meu perfil
+    </text>
+
+    <!-- subtítulo/cargo -->
+    <text x="0" y="110" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" fill="#ff3333">
+      Igor Soares — Analista EUC • Estudante de ADS
+      <animate attributeName="opacity" values="1;0.7;1" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- brilho leve nas bordas -->
+  <rect x="0" y="0" width="1000" height="200" fill="url(#fade)" opacity="0.8"/>
+
+  <!-- assinatura discreta -->
+  <text x="830" y="185" font-family="Inter, Arial" font-size="11" fill="#ff4444">Dark Profile Design</text>
+</svg>
