@@ -1,5 +1,5 @@
 <!-- Banner animado -->
-![Banner](./banner.svg)
+![Banner](banner.svg](https://raw.githubusercontent.com/dev-igorsoares/dev-igorsoares/refs/heads/main/banner.svg)
 
 # 👋 Olá, eu sou o Igor Soares
 
