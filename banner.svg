@@ -44,12 +44,12 @@
   <!-- Texto principal -->
   <g transform="translate(40,60)">
     <text x="0" y="60" font-family="Inter, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="url(#g1)">
-      Seja bem-vindo ao meu perfil
+      WELCOME TO MY PROFILE 
     </text>
 
     <!-- subtítulo/cargo -->
     <text x="0" y="110" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" fill="#ff3333">
-      Igor Soares — Analista EUC • Estudante de ADS
+      Igor Soares — Analista EUC • Analista de sistemas • Desenvolvedor Full Stacker
       <animate attributeName="opacity" values="1;0.7;1" dur="3.5s" repeatCount="indefinite"/>
     </text>
   </g>
