@@ -2,13 +2,13 @@
 ![Banner](https://raw.githubusercontent.com/dev-igorsoares/dev-igorsoares/main/banner.svg)
 
 
-# 👋 Olá, eu sou o Igor Soares
+# 👋 Hi,i'm Igor Soares
 
-💻 **Analista EUC** | Estudante de ADS | Apaixonado por tecnologia
+💻 **SOFTWARE ENGINEER** | STUDENT | PASSIONATE ABOUT TECHNOLOGY
 
 ---
 
-## 🚀 Tecnologias e Ferramentas
+## 🚀 HARD SKILLS
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-1E90FF?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Redes](https://img.shields.io/badge/Redes-228B22?style=for-the-badge&logo=cisco&logoColor=white)
 ![Banco de Dados](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
