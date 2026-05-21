@@ -2,7 +2,7 @@
 ![Banner](https://raw.githubusercontent.com/dev-igorsoares/dev-igorsoares/main/banner.svg)
 
 
-# 👋 Hi,i'm Igor Soares
+# 👋 Hi! I'm Igor Soares
 
 💻 **SOFTWARE ENGINEER** | STUDENT | PASSIONATE ABOUT TECHNOLOGY
 
